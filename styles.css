@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.mario {
+    width: 50px; /* Ajusta el tamaño según sea necesario */
+    height: 72px; /* Ajusta el tamaño según sea necesario */
+    background-image: url('Mario.png');
+}
+
+@keyframes animacionIzquierda {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -100px 0; /* Ajusta la cantidad de desplazamiento según tus necesidades */
+    }
+}
+
+.parado {
+    width: 50px; /* Ajusta el tamaño según sea necesario */
+    height: 72px; /* Ajusta el tamaño según sea necesario */
+    background-image: url('Mario.png');
+    animation: animacionIzquierda 1s infinite alternate; /* Ajusta la duración y otras propiedades según sea necesario */
+}
+
+/* Define las clases para cada estado de Mario */
+.corriendo1 {
+    background-position: 0 0;
+}
+
+.parado {
+    background-position: -50px 0;
+}
+
+.corriendo2 {
+    background-position: -100px 0;
+}
