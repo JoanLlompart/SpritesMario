@@ -29,6 +29,7 @@ body {
     height: 80px;
     background-image: url('Mario.png');
     animation: mario3 1s steps(1) infinite;
+    background-position-y: -159.74px;
     /*animation: marioAnimation steps(2) linear infinite; */
 }
 .mario4 {
@@ -36,6 +37,8 @@ body {
     height: 80px;
     background-image: url('Mario.png');
     animation: mario4 1s steps(1) infinite;
+    background-position-y: -239.61px;
+
 
     /*animation: marioAnimation steps(2) linear infinite; */
 }
