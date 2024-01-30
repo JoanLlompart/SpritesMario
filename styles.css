@@ -11,6 +11,7 @@ body {
     height: 80px; /* Ajusta el tamaño según sea necesario */
     background-image: url('Mario.png');
     animation: marioAnimation 1s steps(1) infinite;
+    background-position-y: 0px;
     /*animation: marioAnimation steps(2) linear infinite; */
 }
 
@@ -26,7 +27,14 @@ body {
     width: 208.5px; /* Ajusta el tamaño según sea necesario */
     height: 240px; /* Ajusta el tamaño según sea necesario */
     background-image: url('Mario.png');
-    animation: marioDreta 1s steps(1) infinite;
+    animation: mario3 1s steps(1) infinite;
+    /*animation: marioAnimation steps(2) linear infinite; */
+}
+.mario4 {
+    width: 278px; /* Ajusta el tamaño según sea necesario */
+    height: 320px; /* Ajusta el tamaño según sea necesario */
+    background-image: url('Mario.png');
+    animation: mario4 1s steps(1) infinite;
 
     /*animation: marioAnimation steps(2) linear infinite; */
 }
@@ -43,13 +51,13 @@ body {
 }*/
 
 @keyframes marioAnimation {
-    0% { background-position: 0 0; }
-    32.9% { background-position: 0 0; }
-    33% { background-position: -69.5px 0; }
-    65.9% { background-position: -69.5px 0; }
-    66% { background-position: -139px 0; }
-    99.9% { background-position: -139px.5px 0; } 
-    100% { background-position: 139px 0; } 
+    0% { background-position-x: 0; }
+    32.9% { background-position-x: 0; }
+    33% { background-position-x: -69.5px; }
+    65.9% { background-position-x: -69.5px; }
+    66% { background-position-x: -139px; }
+    99.9% { background-position-x: -139px.5px; } 
+    100% { background-position-x: 139px; } 
 }
 
 
@@ -63,7 +71,7 @@ body {
     99.9% { background-position: -139px.5px 0; } 
     100% { background-position: 139px 0; } 
 }
-@keyframes marioDreta {
+@keyframes mario3 {
     0% { background-position: 0 0; }
     32.9% { background-position: 0 0; }
     33% { background-position: -69.5px 0; }
@@ -72,7 +80,7 @@ body {
     99.9% { background-position: -139px.5px 0; } 
     100% { background-position: 139px 0; } 
 }
-@keyframes marioDreta {
+@keyframes mario4 {
     0% { background-position: 0 0; }
     32.9% { background-position: 0 0; }
     33% { background-position: -69.5px 0; }
