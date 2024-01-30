@@ -20,6 +20,7 @@ body {
     height: 80px;
     background-image: url('Mario.png');
     animation: marioDreta 1s steps(1) infinite;
+    background-position-y: -79.8px;
 
     /*animation: marioAnimation steps(2) linear infinite; */
 }
