@@ -67,13 +67,13 @@ body {
 
 
 @keyframes marioDreta {
-    0% { background-position-x: -208.5px; }
-    32.9% { background-position-x: -208.5px; }
-    33% { background-position-x: -278px; }
-    65.9% { background-position-x: -278px; }
-    66% { background-position-x: -347.5px; }
+    0% { background-position-x: 0; }
+    32.9% { background-position-x: 0; }
+    33% { background-position-x: -69.5px; }
+    65.9% { background-position-x: -69.5px; }
+    66% { background-position-x: -139px; }
     99.9% { background-position-x: -139px.5px; } 
-    100% { background-position-x: 139px; } 
+    100% { background-position-x: -139px; } 
 }
 @keyframes mario3 {
     0% { background-position-x: 0; }
