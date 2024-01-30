@@ -42,6 +42,17 @@ body {
 
     /*animation: marioAnimation steps(2) linear infinite; */
 }
+
+
+
+
+.mario5 {
+    width: 69.5px; 
+    height: 80px;
+    background-image: url('Mario.png');
+    animation: mario5 1s steps(1) infinite;
+    background-position-y: -319.41px;
+}
 /*Cada imatge ocupa 69.58 de ample y
     de ALTURA 79.87 PIXELS
 */
@@ -85,6 +96,16 @@ body {
     100% { background-position-x: 139px; } 
 }
 @keyframes mario4 {
+    0% { background-position-x: 0; }
+    32.9% { background-position-x: 0; }
+    33% { background-position-x: -69.5px; }
+    65.9% { background-position-x: -69.5px; }
+    66% { background-position-x: -139px; }
+    99.9% { background-position-x: -139px.5px; } 
+    100% { background-position-x: 139px; } 
+}
+
+@keyframes mario5 {
     0% { background-position-x: 0; }
     32.9% { background-position-x: 0; }
     33% { background-position-x: -69.5px; }
