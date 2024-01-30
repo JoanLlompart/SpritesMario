@@ -71,7 +71,7 @@ body {
     33% { background-position-x: -69.5px; }
     65.9% { background-position-x: -69.5px; }
     66% { background-position-x: -139px; }
-    99.9% { background-position-x: -139px.5px; } 
+    99.9% { background-position-x: -139px; } 
     100% { background-position-x: -139px; } 
 }
 
@@ -106,11 +106,11 @@ body {
 }
 
 @keyframes mario5 {
-    0% { background-position-x: 0; }
-    32.9% { background-position-x: 0; }
-    33% { background-position-x: -69.5px; }
-    65.9% { background-position-x: -69.5px; }
-    66% { background-position-x: -139px; }
-    99.9% { background-position-x: -139px.5px; } 
-    100% { background-position-x: 139px; } 
+    0% { background-position-x: -417; }
+    32.9% { background-position-x: -417; }
+    33% { background-position-x: -486.5px; }
+    65.9% { background-position-x: -486.5px; }
+    66% { background-position-x: -555.5px; }
+    99.9% { background-position-x: -555.5px; } 
+    100% { background-position-x: -555.5px; } 
 }
