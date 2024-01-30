@@ -7,8 +7,8 @@ body {
 }
 
 .mario {
-    width: 69.5px; /* Ajusta el tamaño según sea necesario */
-    height: 80px; /* Ajusta el tamaño según sea necesario */
+    width: 69.5px; 
+    height: 80px;
     background-image: url('Mario.png');
     animation: marioAnimation 1s steps(1) infinite;
     background-position-y: 0px;
@@ -16,23 +16,23 @@ body {
 }
 
 .mario2 {
-    width: 139px; /* Ajusta el tamaño según sea necesario */
-    height: 160px; /* Ajusta el tamaño según sea necesario */
+    width: 69.5px; 
+    height: 80px;
     background-image: url('Mario.png');
     animation: marioDreta 1s steps(1) infinite;
 
     /*animation: marioAnimation steps(2) linear infinite; */
 }
 .mario3 {
-    width: 208.5px; /* Ajusta el tamaño según sea necesario */
-    height: 240px; /* Ajusta el tamaño según sea necesario */
+    width: 69.5px; 
+    height: 80px;
     background-image: url('Mario.png');
     animation: mario3 1s steps(1) infinite;
     /*animation: marioAnimation steps(2) linear infinite; */
 }
 .mario4 {
-    width: 278px; /* Ajusta el tamaño según sea necesario */
-    height: 320px; /* Ajusta el tamaño según sea necesario */
+    width: 69.5px; 
+    height: 80px;
     background-image: url('Mario.png');
     animation: mario4 1s steps(1) infinite;
 
@@ -57,35 +57,35 @@ body {
     65.9% { background-position-x: -69.5px; }
     66% { background-position-x: -139px; }
     99.9% { background-position-x: -139px.5px; } 
-    100% { background-position-x: 139px; } 
+    100% { background-position-x: -139px; } 
 }
 
 
 
 @keyframes marioDreta {
-    0% { background-position: 0 0; }
-    32.9% { background-position: 0 0; }
-    33% { background-position: -69.5px 0; }
-    65.9% { background-position: -69.5px 0; }
-    66% { background-position: -139px 0; }
-    99.9% { background-position: -139px.5px 0; } 
-    100% { background-position: 139px 0; } 
+    0% { background-position-x: -208.5px; }
+    32.9% { background-position-x: -208.5px; }
+    33% { background-position-x: -278px; }
+    65.9% { background-position-x: -278px; }
+    66% { background-position-x: -347.5px; }
+    99.9% { background-position-x: -139px.5px; } 
+    100% { background-position-x: 139px; } 
 }
 @keyframes mario3 {
-    0% { background-position: 0 0; }
-    32.9% { background-position: 0 0; }
-    33% { background-position: -69.5px 0; }
-    65.9% { background-position: -69.5px 0; }
-    66% { background-position: -139px 0; }
-    99.9% { background-position: -139px.5px 0; } 
-    100% { background-position: 139px 0; } 
+    0% { background-position-x: 0; }
+    32.9% { background-position-x: 0; }
+    33% { background-position-x: -69.5px; }
+    65.9% { background-position-x: -69.5px; }
+    66% { background-position-x: -139px; }
+    99.9% { background-position-x: -139px.5px; } 
+    100% { background-position-x: 139px; } 
 }
 @keyframes mario4 {
-    0% { background-position: 0 0; }
-    32.9% { background-position: 0 0; }
-    33% { background-position: -69.5px 0; }
-    65.9% { background-position: -69.5px 0; }
-    66% { background-position: -139px 0; }
-    99.9% { background-position: -139px.5px 0; } 
-    100% { background-position: 139px 0; } 
+    0% { background-position-x: 0; }
+    32.9% { background-position-x: 0; }
+    33% { background-position-x: -69.5px; }
+    65.9% { background-position-x: -69.5px; }
+    66% { background-position-x: -139px; }
+    99.9% { background-position-x: -139px.5px; } 
+    100% { background-position-x: 139px; } 
 }
