@@ -11,6 +11,8 @@ body {
     height: 80px; /* Ajusta el tamaño según sea necesario */
     background-image: url('Mario.png');
     animation: marioAnimation 1s steps(1) infinite;
+    animation: marioDreta 1s steps(1) infinite;
+
     /*animation: marioAnimation steps(2) linear infinite; */
 }
 
@@ -38,3 +40,12 @@ body {
 
 
 
+@keyframes marioDreta {
+    0% { background-position: 0 0; }
+    32.9% { background-position: 0 0; }
+    33% { background-position: -69.5px 0; }
+    65.9% { background-position: -69.5px 0; }
+    66% { background-position: -139px 0; }
+    99.9% { background-position: -139px.5px 0; } 
+    100% { background-position: 139px 0; } 
+}
