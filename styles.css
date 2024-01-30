@@ -7,36 +7,18 @@ body {
 }
 
 .mario {
-    width: 50px; /* Ajusta el tamaño según sea necesario */
-    height: 72px; /* Ajusta el tamaño según sea necesario */
+    width: 69.5px; /* Ajusta el tamaño según sea necesario */
+    height: 80px; /* Ajusta el tamaño según sea necesario */
     background-image: url('Mario.png');
+    animation: marioAnimation 4s steps(4) infinite;
 }
 
-@keyframes animacionIzquierda {
-    from {
-        background-position: 0 0;
-    }
-    to {
-        background-position: -100px 0; /* Ajusta la cantidad de desplazamiento según tus necesidades */
-    }
-}
-
-.parado {
-    width: 50px; /* Ajusta el tamaño según sea necesario */
-    height: 72px; /* Ajusta el tamaño según sea necesario */
-    background-image: url('Mario.png');
-    animation: animacionIzquierda 1s infinite alternate; /* Ajusta la duración y otras propiedades según sea necesario */
-}
-
-/* Define las clases para cada estado de Mario */
-.corriendo1 {
-    background-position: 0 0;
-}
-
-.parado {
-    background-position: -50px 0;
-}
-
-.corriendo2 {
-    background-position: -100px 0;
+/*Cada imatge ocupa 69.58 de ample y
+    de ALTURA 79.87 PIXELS
+*/
+@keyframes marioAnimation {
+    0% { background-position: 0 0; }
+    33% { background-position: -69.5px 0; } /* Cambia estos valores según las dimensiones de tu imagen */
+    66% { background-position: -139px 0; }
+    100% { background-position: -69.5px 0; } /* Cambia estos valores según las dimensiones de tu imagen */
 }
