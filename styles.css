@@ -11,11 +11,25 @@ body {
     height: 80px; /* Ajusta el tamaño según sea necesario */
     background-image: url('Mario.png');
     animation: marioAnimation 1s steps(1) infinite;
+    /*animation: marioAnimation steps(2) linear infinite; */
+}
+
+.mario2 {
+    width: 139px; /* Ajusta el tamaño según sea necesario */
+    height: 160px; /* Ajusta el tamaño según sea necesario */
+    background-image: url('Mario.png');
     animation: marioDreta 1s steps(1) infinite;
 
     /*animation: marioAnimation steps(2) linear infinite; */
 }
+.mario3 {
+    width: 208.5px; /* Ajusta el tamaño según sea necesario */
+    height: 240px; /* Ajusta el tamaño según sea necesario */
+    background-image: url('Mario.png');
+    animation: marioDreta 1s steps(1) infinite;
 
+    /*animation: marioAnimation steps(2) linear infinite; */
+}
 /*Cada imatge ocupa 69.58 de ample y
     de ALTURA 79.87 PIXELS
 */
