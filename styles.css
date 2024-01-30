@@ -10,15 +10,28 @@ body {
     width: 69.5px; /* Ajusta el tamaño según sea necesario */
     height: 80px; /* Ajusta el tamaño según sea necesario */
     background-image: url('Mario.png');
-    animation: marioAnimation 4s steps(4) infinite;
+    animation: marioAnimation 1s steps(3) infinite;
+    /*animation: marioAnimation steps(2) linear infinite; */
 }
 
 /*Cada imatge ocupa 69.58 de ample y
     de ALTURA 79.87 PIXELS
 */
+
+/*
 @keyframes marioAnimation {
     0% { background-position: 0 0; }
-    33% { background-position: -69.5px 0; } /* Cambia estos valores según las dimensiones de tu imagen */
+    33% { background-position: -69.5px 0; }
     66% { background-position: -139px 0; }
-    100% { background-position: -69.5px 0; } /* Cambia estos valores según las dimensiones de tu imagen */
+    100% { background-position: -69.5px 0; } 
+}*/
+
+@keyframes marioAnimation {
+    0% { background-position: 0 0; }
+    32.9% { background-position: 0 0; }
+    33% { background-position: -69.5px 0; }
+    65.9% { background-position: -69.5px 0; }
+    66% { background-position: -139px 0; }
+    99.9% { background-position: -69.5px 0; } 
+    100% { background-position: -69.5px 0; } 
 }
